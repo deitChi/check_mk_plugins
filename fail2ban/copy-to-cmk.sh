@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cp web/plugins/wato/* ~/local/share/check_mk/web/plugins/wato/*
-chown $USER ~/local/share/check_mk/web/plugins/wato/*
-chmod 755   ~/local/share/check_mk/web/plugins/wato/*
+cp web/plugins/wato/* ~/local/share/check_mk/web/plugins/wato/
+chown -R $USER ~/local/share/check_mk/web/plugins/wato/
+chmod -R 755   ~/local/share/check_mk/web/plugins/wato/
 
 cp web/plugins/metrics/fail2ban_metric.py ~/local/share/check_mk/web/plugins/metrics/fail2ban_metric.py
 chown $USER ~/local/share/check_mk/web/plugins/metrics/fail2ban_metric.py
