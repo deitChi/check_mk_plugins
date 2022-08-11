@@ -26,5 +26,3 @@ chmod 755   ~/local/share/check_mk/agents/plugins/fail2ban
 
 rm -f ~/local/lib/python3/cmk/base/plugins/agent_based/__pycache__/fail2ban_checks.*
 rm -f ~/local/lib/python3/cmk/base/cee/plugins/bakery/__pycache__/fail2ban.*
-
-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
